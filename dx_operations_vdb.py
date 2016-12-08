@@ -94,6 +94,7 @@ def vdb_operation(engine, server, jobs, vdb_name, operation):
         raise dlpxException('An error occurred while performing ' +
                             operation + ' on ' + vdb_name + '.:%s\n' % (e))
 
+
 def list_databases(engine, server, jobs):
     """
     Function to list all databases for a given engine

@@ -26,7 +26,7 @@ from GetReferences import get_obj_reference
 from GetReferences import convert_timestamp
 from GetReferences import find_obj_by_name
 
-VERSION = 'v.0.1.000'
+VERSION = 'v.0.2.000'
 
 class DxTimeflow(object):
     """Shared methods for timeflows """
